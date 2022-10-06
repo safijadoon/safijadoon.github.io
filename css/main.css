@@ -1,0 +1,124 @@
+body {
+	/*background-color: #c4dae9;*/
+	background-color: white;
+}
+
+.container div {
+	border: 0px solid red;
+}
+
+.dp {
+	max-width: 20%;
+}
+
+.normal-text {
+	font-size: 1.15em;
+}
+
+#about {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#publication {
+	/*background-color: #e0fbfc;*/
+	background-color: white;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.c-two {
+	background-color: #fff;
+}
+
+.c-five {
+	background-color: #e0fbfc;
+}
+
+.card {
+	width: calc(100% - 30rem);
+	margin: auto auto;
+}
+
+.navbar {
+	width: calc(100% - 30rem);
+	/*background-color: #f6b3a2;*/
+	background-color: rgb(255, 255, 255);
+	/*background-color: rgba(224, 61, 21, 0.7);*/
+	font-color: black;
+	/*font-color: #333;*/
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin: auto auto;
+
+	-webkit-transition: background-color 500ms linear; 
+	-moz-transition: background-color 500ms linear; 
+	-ms-transition: background-color 500ms linear; 
+	transition: background-color 500ms linear; 
+}
+
+.scrolled { 
+	background-color: rgba(255, 255, 255, 0.75); 
+	backdrop-filter: blur(3px);
+	-webkit-transition: background-color 500ms linear; 
+	-moz-transition: background-color 500ms linear; 
+	-ms-transition: background-color 500ms linear; 
+	transition: background-color 500ms linear; 
+}
+
+.nav-link {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+.footer {
+	background-color: rgba(41, 50, 65);
+	color: white;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.list-group-item {
+	/*background-color: #e0fbfc; */
+	border: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+	width: calc(100% - 15rem);
+	/*margin: auto auto;*/
+	}
+
+  .navbar {
+	width: calc(100% - 15rem);
+	/*margin: auto auto;*/
+	}
+
+	.dp {
+	max-width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+	width: 100%;
+	/*margin: auto auto;*/
+	}
+
+  .navbar {
+	width: 100%;
+	/*margin: auto auto;*/
+	}
+
+	.dp {
+	max-width: 35%;
+}
+}
+
